@@ -1,0 +1,33 @@
+/* Home page styles */
+.home-card {
+  max-width: 900px;
+  margin: 20px auto 30px auto;
+  padding: 28px;
+  border-radius: 14px;
+  background: linear-gradient(180deg, #071827, #04121a);
+  border-left: 6px solid #0ea5ff;
+  box-shadow: 0 14px 36px rgba(2, 6, 23, 0.6);
+  text-align: center;
+  color: #e6eef8;
+}
+
+.home-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #e6f7ff;
+}
+.home-card p {
+  color: #bcd6ea;
+  margin-top: 8px;
+}
+
+.hero-emoji {
+  font-size: 28px;
+  margin-right: 8px;
+}
+
+@media (max-width: 700px) {
+  .home-card {
+    padding: 20px;
+  }
+}
